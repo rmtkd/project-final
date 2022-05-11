@@ -13,6 +13,7 @@ The project successfully ran in the Udacity workspace with python 3.6.3.
 # Project Motivation
 
 In this project, we will explore a dataset of user events within a music streaming platform (like Spotify, Deezer, and Amazon Music) and generate a model to predict churn, which is a big and common problem for SaaS (Software as a Service) companies. The full dataset is 12GB but for this project, a smaller dataset was used to perform the analysis and training of the model.
+
 For this project, we will use Spark to manipulate large datasets through Spark Dataframes and use the machine learning API with Spark ML to build and tune the models, all of this integrated with the skills obtained in the Data Scientist Nanodegree course. Below are the steps that were taken on the project:
 1. Load and Clean
 2. Exploratory Analysis
