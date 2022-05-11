@@ -31,6 +31,7 @@ The ML pipeline had a better result using Logistic Regression, with a 81,4% accu
 The model could be improved with the addition of new features, such as:
 - days on the platform after user creation
 - average daily login after user creation
+
 As we don't have exactly the information on user creation cohorts, we were not able to calculate these features, which might be useful in the model.
 
 
