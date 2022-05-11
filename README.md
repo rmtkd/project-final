@@ -27,7 +27,12 @@ For this project, we will use Spark to manipulate large datasets through Spark D
 
 # Results
 
-The ML pipeline had a better result using Logistic Regression, with a 77% accuracy and 64% f1-score. For this project, it is more important to have a high f1-score, as it represents the churn hits on an unbalanced base (few churns compared to the whole base)
+The ML pipeline had a better result using Logistic Regression, with a 81,4% accuracy and 64,9% f1-score for the test set. For this project, it is more important to have a high f1-score, as it represents the churn hits on an unbalanced base (few churns compared to the whole base).
+The model could be improved with the addition of new features, such as:
+- days on the platform after user creation
+- average daily login after user creation
+As we don't have exactly the information on user creation cohorts, we were not able to calculate these features, which might be useful in the model.
+
 
 
 # Licensing
