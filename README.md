@@ -8,56 +8,28 @@
 
 # Installation
 
-The project successfully ran in the Udacity workspace IDE with python 3.6.3.
+The project successfully ran in the Udacity workspace with python 3.6.3.
 
 # Project Motivation
 
-After a disaster, millions of messages are sent direct or via social media, and organizations need to filter which messages are really important and relevant, so in this project we built a disaster response pipeline, which take as input a real message that was sent during disaster events, and outputs the categories of the message, so different organizations can take care of different parts of the problem.
-The project contains the following components:
-1. ETL Pipeline
-2. ML Pipeline
-3. Flask Web App
+In this project, we will explore a dataset of user events within a music streaming platform (like Spotify, Deezer, and Amazon Music) and generate a model to predict churn, which is a big and common problem for SaaS (Software as a Service) companies. The full dataset is 12GB but for this project, a smaller dataset was used to perform the analysis and training of the model.
+For this project, we will use Spark to manipulate large datasets through Spark Dataframes and use the machine learning API with Spark ML to build and tune the models, all of this integrated with the skills obtained in the Data Scientist Nanodegree course. Below are the steps that were taken on the project:
+1. Load and Clean
+2. Exploratory Analysis
+3. Feature Engineering
+4. Modeling
 
 # File Descriptions
 
-- [app](https://github.com/rmtkd/project-2/tree/main/app)
-  - [run.py](https://github.com/rmtkd/project-2/blob/main/app/run.py) _Flask file that runs the app_
-  - [templates](https://github.com/rmtkd/project-2/tree/main/app/templates)
-    - [go.html](https://github.com/rmtkd/project-2/blob/main/app/templates/go.html) _main page of web app_
-    - [master.html](https://github.com/rmtkd/project-2/blob/main/app/templates/master.html) _classification result page of web app_
-- [data](https://github.com/rmtkd/project-2/tree/main/data)
-  - [disaster_categories.csv](https://github.com/rmtkd/project-2/blob/main/data/disaster_categories.csv) _data to process_
-  - [disaster_messages.csv](https://github.com/rmtkd/project-2/blob/main/data/disaster_messages.csv) _data to process_
-  - [process_data.py](https://github.com/rmtkd/project-2/blob/main/data/process_data.py) _python script with ETL pipeline_
-  - [DisasterResponse.db](https://github.com/rmtkd/project-2/blob/main/data/DisasterResponse.db) _database with cleaned data_
-- [models](https://github.com/rmtkd/project-2/tree/main/models)
-  - [train_classifier.py](https://github.com/rmtkd/project-2/blob/main/models/train_classifier.py) _python script with the ML pipeline_
-- [README.md](https://github.com/rmtkd/project-2/blob/main/README.md)
 - [ETL Pipeline Preparation.ipynb](https://github.com/rmtkd/project-2/blob/main/ETL%20Pipeline%20Preparation.ipynb) _ETL pipeline preparation_
 - [ML Pipeline Preparation.ipynb](https://github.com/rmtkd/project-2/blob/main/ML%20Pipeline%20Preparation.ipynb) _ML pipeline preparation_
 
-To run the python scripts and the web app in the terminal:
-- To run ETL pipeline that cleans data and stores in database:
-    ```
-    python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
-    ```
-- To run ML pipeline that trains classifier and saves:
-    ```
-    python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
-    ```
-- To run the web app:
-  - Go to `app` directory: `cd app`
-  - Run your web app: `python run.py`
-  - Click the `PREVIEW` button to open the homepage
 
 # Results
 
-The ML pipeline had a better result using multiple outputs Random Forest, with 200 estimators and an accuracy of 94,6%.
-The run.py web app runs in the terminal without errors, and the main page includes three visualizations of the data, including:
-- Genre distribution
-- Categories distribution
-- Categories distribution with genre breakdown
+The ML pipeline had a better result using Logistic Regression, with a 77% accuracy and 64% f1-score. For this project, it is more important to have a high f1-score, as it represents the churn hits on an unbalanced base (few churns compared to the whole base)
+
 
 # Licensing
 
-Credits to Udacity by providing the templates for the project.
+Credits to Udacity for providing the templates for the project and the dataset used for the analysis and prediction.
