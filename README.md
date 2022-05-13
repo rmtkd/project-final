@@ -22,7 +22,7 @@ For this project, we will use Spark to manipulate large datasets through Spark D
 
 # File Descriptions
 
-- [ETL Pipeline Preparation.ipynb](https://github.com/rmtkd/project-2/blob/main/ETL%20Pipeline%20Preparation.ipynb) _ETL pipeline preparation_
+- [udacity_sparkfy.ipynb](https://github.com/rmtkd/project-final/blob/main/udacity_sparkfy.ipynb) _Sparkfy project notebook_
 
 
 # Results
