@@ -1,10 +1,10 @@
 # project-final
 # Table of Contents
-1. [Installation](https://github.com/rmtkd/project-1/blob/main/README.md#installation)
-2. [Project Motivation](https://github.com/rmtkd/project-1/blob/main/README.md#project-motivation)
-3. [File Descriptions](https://github.com/rmtkd/project-1/blob/main/README.md#file-descriptions)
-4. [Results](https://github.com/rmtkd/project-1/blob/main/README.md#results)
-5. [Licensing](https://github.com/rmtkd/project-1/blob/main/README.md#licensing)
+1. [Installation](https://github.com/rmtkd/project-final#installation)
+2. [Project Motivation](https://github.com/rmtkd/project-final#project-motivation)
+3. [File Descriptions](https://github.com/rmtkd/project-final#file-descriptions)
+4. [Results](https://github.com/rmtkd/project-final#results)
+5. [Licensing](https://github.com/rmtkd/project-final#licensing)
 
 # Installation
 
@@ -23,7 +23,6 @@ For this project, we will use Spark to manipulate large datasets through Spark D
 # File Descriptions
 
 - [ETL Pipeline Preparation.ipynb](https://github.com/rmtkd/project-2/blob/main/ETL%20Pipeline%20Preparation.ipynb) _ETL pipeline preparation_
-- [ML Pipeline Preparation.ipynb](https://github.com/rmtkd/project-2/blob/main/ML%20Pipeline%20Preparation.ipynb) _ML pipeline preparation_
 
 
 # Results
